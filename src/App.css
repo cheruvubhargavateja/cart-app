@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  padding: 2em;
+  justify-content: space-between;
+  background-color: rgb(12, 85, 85);
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.link-tags {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo span {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: rgb(204, 242, 242);
+}
+
+.search-bar input {
+  width: 500px;
+  /* border: 2px solid gray; */
+  border: none;
+  border-radius: 100px;
+  padding: 0.5rem;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.routes {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.filter-section {
+  width: 20%;
+  background-color: rgb(152, 151, 151);
+  min-height: 500px;
+  padding: 2rem;
+}
+
+.home-section {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.filter-section section {
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filter-section section input[type="radio"] {
+  /* color: blue; */
+  margin-left: 2rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.filter-section section p {
+  padding: 1rem 0px;
+}
+
+.rating-stars {
+  padding: 5px;
+}
+
+.reset {
+  background-color: #fff;
+  color: rgb(47, 45, 45) !important;
+}
+
+.cart-value-list {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  font-weight: 800;
+  color: gray;
+}
